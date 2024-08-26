@@ -1,0 +1,228 @@
+.section-share {
+    &.section-specialty {
+        background: #f5f5f5;
+
+    }
+
+    &.section-medical-facility {
+        background: #fcfcf9;
+
+    }
+
+    &.section-handbook {
+        background: #fcfcf9;
+    }
+
+    &.section-vidinfo {
+        border: 1px solid red;
+        height: 500px;
+    }
+
+
+
+    background: #e60a0a;
+
+    .section-body {
+
+
+        .section-customize {
+            .content-specialty {
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            .bg-imge {
+                width: 278px;
+                height: 150px;
+                background-position: center center !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                background-color: #eee !important;
+
+                &.section-specialty {
+                    margin: 0 5px;
+
+                }
+
+                &.section-medical-facility {}
+
+                &.section-outstanding-doctor {
+                    // background-image: url("../../assets/outstanding-doctor/theanh-26.jpg");
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    // border: 1px solid red;
+
+                    .boder-customize {
+                        border: 1px solid red;
+                    }
+                }
+
+                &.section-handbook {
+                    background-image: url("../../assets/handbook/ung-thu-da.png");
+
+                }
+            }
+        }
+    }
+
+}
+
+
+.section-share {
+    height: 330px;
+    background: #f5f5f5;
+
+
+    .section-container {
+        margin: 0 150px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .title-section {
+                font-size: 22px;
+                padding-top: 600;
+
+            }
+
+            .btn-section {
+
+                float: right;
+                border: none;
+                outline: none;
+                padding: 10px 15px;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+
+
+
+    }
+}
+
+.section-outstanding-doctor {
+
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+        cursor: pointer;
+
+        .boder-customize {
+            border: 1px solid gray;
+            padding: 13px;
+        }
+    }
+
+
+}
+
+// reset slick slider css
+.slick-prev {
+    // position: relative !important;
+    padding-top: 0px !important;
+    z-index: 1000;
+    width: 44px !important;
+    height: 48px !important;
+    left: -15px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+
+    }
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+
+.slick-next {
+    padding-top: 0px !important;
+    z-index: 1000;
+    width: 44px !important;
+    height: 48px !important;
+    right: -15px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+
+    }
+
+
+
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.home-footer {
+    height: 100px !important;
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 9px;
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+
+}
+
+.section-vidinfo {
+    padding: 0 100px;
+
+    .section-vidinfo-header {
+        padding: 20px 20px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .section-vidinfo-content {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+
+            p {
+                text-align: center;
+                font-size: initial;
+                font-style: italic;
+                padding: 20px;
+            }
+        }
+    }
+}

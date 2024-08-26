@@ -1,19 +1,32 @@
 export const path = {
     HOME: '/',
+    HOMEPAGE: '/home',
+
     LOGIN: '/login',
     LOG_OUT: '/logout',
-    SYSTEM: '/system'
+    SYSTEM: '/system',
+    DOCTOR: '/doctor/',
+    DETAIL_DOCTOR: '/detail-doctor/:id',
+    VERIFY_EMAI_BOOKING: '/verifly-booking',
+    DETAIL_SPECIALTY: '/detail-specialty/:id',
+
+
+    DETAIL_CLINIC: '/detail-clinic/:id'
+
+
 };
 
-export const languages = {
+export const LANGUAGES = {
     VI: 'vi',
     EN: 'en'
 };
- 
-export const manageActions = {
-    ADD: "ADD",
+
+export const CRUD_ACTIONS = {
+    CREATE: "CREATE",
     EDIT: "EDIT",
-    DELETE: "DELETE"
+    DELETE: "DELETE",
+    READ: "READ",
+
 };
 
 export const dateFormat = {
@@ -23,4 +36,9 @@ export const dateFormat = {
 export const YesNoObj = {
     YES: 'Y',
     NO: 'N'
+};
+export const USER_ROLE = {
+    ADMIN: 'R1',
+    DOCTOR: 'R2',
+    PATIENT: 'R3',
 }
